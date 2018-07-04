@@ -67,8 +67,7 @@
             </div>
         </nav> --}}
     </div>
-    @section('scripts')
-    <script src="{{('js/all.js')}}" type="text/javascript"></script>
-    @show
+    <script src="{{asset('js/all.js')}}" type="text/javascript"></script>
+    @stack('scripts')
 </body>
 </html>

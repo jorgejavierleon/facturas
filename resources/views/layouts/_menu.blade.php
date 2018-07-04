@@ -23,9 +23,9 @@
                 </ul>
             </li> --}}
             <li class="active nav-item">
-                <a href="/">
+                <a href="{{route('invoice.create')}}">
                     <i class="icon-paper"></i>
-                    <span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">Template</span>
+                    <span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">Facturas</span>
                 </a>
             </li>
         </ul>

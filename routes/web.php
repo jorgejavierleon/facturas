@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('admin');
 });
+
+Route::get('invoices/create', 'InvoiceController@create')->name('invoice.create');
